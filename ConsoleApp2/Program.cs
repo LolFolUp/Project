@@ -36,7 +36,7 @@ namespace ConsoleApp2
                     {
                         Console.WriteLine($"'{userAnswer}' is wrong answer ;(. Correct answer was '{lcm}'.");
                         Console.WriteLine($"Let's try again, {name}!");
-                        return;
+                        continue;
                     }
                 }
                 else
@@ -84,5 +84,4 @@ namespace ConsoleApp2
             return a;
         }
     }
-    
 }
